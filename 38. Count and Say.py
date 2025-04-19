@@ -1,6 +1,7 @@
 class Solution:
     def countAndSay(self, n: int) -> str:
         result = "1"
+
         
         for _ in range(n - 1):
             current = ""
@@ -15,3 +16,4 @@ class Solution:
             result = current
 
         return result
+
