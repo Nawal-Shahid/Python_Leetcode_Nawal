@@ -12,3 +12,8 @@ class Solution:
                     count += 1
                     
         return count
+
+
+# Runtime 571 ms
+
+#Memory 18.20 MB
